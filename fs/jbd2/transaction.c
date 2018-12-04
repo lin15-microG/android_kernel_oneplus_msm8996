@@ -897,7 +897,7 @@ repeat:
 	 * this is the first time this transaction is touching this buffer,
 	 * reset the modified flag
 	 */
-       jh->b_modified = 0;
+	jh->b_modified = 0;
 
 	/*
 	 * If there is already a copy-out version of this buffer, then we don't
